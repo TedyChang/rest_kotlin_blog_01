@@ -12,7 +12,7 @@ internal class UserServiceTest {
     fun login_it_should_success() {
         // given
         // when
-        val got = service.login()
+        val got = service.login("admin","admin")
 
         // then
         assertEquals("token", got)
