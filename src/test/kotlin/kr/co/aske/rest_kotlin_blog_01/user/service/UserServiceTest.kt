@@ -14,6 +14,6 @@ internal class UserServiceTest {
         val got = service.funcLogin("admin","admin")
 
         // then
-        assertEquals("token", got)
+        assertEquals(true, got)
     }
 }
