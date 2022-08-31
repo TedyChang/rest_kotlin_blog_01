@@ -11,7 +11,7 @@ internal class UserServiceTest {
     fun login_it_should_success() {
         // given
         // when
-        val got = service.funcLogin("admin","admin")
+        val got = service.funcLogin("admin","admin1")
 
         // then
         assertEquals(true, got)
